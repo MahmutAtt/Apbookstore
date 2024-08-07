@@ -3,6 +3,7 @@
 import { FillterHRO } from "@/components/FillterHRO";
 import { Hero } from "@/components/Hero";
 import { MbGallery } from "@/components/MbGallery";
+import {QuAn} from "@/components/QuAn";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
 
     <MbGallery />
     <FillterHRO/>
+    <QuAn/>
  
     </>
   

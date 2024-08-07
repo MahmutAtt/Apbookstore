@@ -31,12 +31,13 @@ export const FillterHRO = () => {
               <p className="mb-8 text-lg font-normal dark:text-blue-100 lg:text-xl sm:px-16 lg:px-48"> {description}</p>
                 <div className="flex justify-center">
                     <div>
- 
+                       <div>
                         <ul className="flex flex-col sm:flex-row rounded-xl sm:rounded-full justify-center align-middle hover:bg-yellow-500 gap-3 text-sm bg-blue-500 dark:text-white p-2">
                            <li className="px-4 py-2 rounded-full cursor-pointer select-none hover:bg-green-600 text-white">Bestelling Aaudiobooks</li>
                            <li className="px-4 py-2 rounded-full cursor-pointer select-none bg-gray-900 text-white">New &Trending Ebooks</li>
-                           <li className="px-4 py-2 rounded-full cursor-pointer select-none hover:bg-white">Fan-Favorite Audiobooks</li>
+                           <li className="px-4 py-2 rounded-full cursor-pointer select-none hover:bg-white text-blue-900">Fan-Favorite Audiobooks</li>
                         </ul>
+                        </div>
                     </div>
 
                 </div> 
